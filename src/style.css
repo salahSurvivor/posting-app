@@ -19,7 +19,7 @@ a{
     z-index: -99999999999999999;
     position: fixed;
     left: 0;
-    width: 270px;
+    width: 250px;
     height: 100%;
     background: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15 );
@@ -572,8 +572,7 @@ label.float-end.editLabel {
 }
 
 .sideBar-container{
-    left: -70%;
-    visibility: none;
+    left: -60%;
 }   
 
 .ourContent{

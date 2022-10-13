@@ -40,8 +40,7 @@ function App() {
     }
       
     else if(window.innerWidth <= 991){
-        sidebar.current.style.left = '-70%';
-        sidebar.current.style.visibility = 'none';
+        sidebar.current.style.left = '-60%';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
