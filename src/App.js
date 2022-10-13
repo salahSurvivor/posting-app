@@ -34,12 +34,14 @@ function App() {
   window.onresize = function(){
     if(window.innerWidth >= 991){
         sidebar.current.style.left = '0px';
+        sidebar.current.style.visibility = 'visible';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
       
     else if(window.innerWidth <= 991){
         sidebar.current.style.left = '-70%';
+        sidebar.current.style.visibility = 'none';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
