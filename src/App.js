@@ -39,7 +39,7 @@ function App() {
     }
       
     else if(window.innerWidth <= 991){
-        sidebar.current.style.left = '-60%';
+        sidebar.current.style.left = '-70%';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
