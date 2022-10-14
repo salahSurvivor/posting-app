@@ -19,7 +19,7 @@ a{
     z-index: -99999999999999999;
     position: fixed;
     left: 0;
-    width: 270px;
+    width: 240px;
     height: 100%;
     background: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15 );
@@ -572,9 +572,7 @@ label.float-end.editLabel {
 }
 
 .sideBar-container{
-    width: 240px;
     left: -60%;
-    visibility: none;
 }   
 
 .ourContent{
@@ -617,9 +615,5 @@ iframe{
 
 .postComment{
     width: 418px;
-}
-
-.container-edit h3 {
-    margin: 0px 0px 10px 31px;
 }
 }

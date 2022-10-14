@@ -19,14 +19,12 @@ function App() {
   function sh(){
     if(tst === 0 || sidebar.current.style.left === '-60%'){
       sidebar.current.style.left = '0';
-      sidebar.current.style.visibility = 'visible';
       container.current.style.left = '530px';
       container.current.style.position = 'fixed';
       tst = 1;
     }
     else if(tst === 1 || sidebar.current.style.left === '0px'){
       sidebar.current.style.left = '-60%';
-      sidebar.current.style.visibility = 'none';
       container.current.style.left = '50%';
       container.current.style.position = 'absolute';
       tst = 0;
@@ -36,14 +34,12 @@ function App() {
   window.onresize = function(){
     if(window.innerWidth >= 991){
         sidebar.current.style.left = '0px';
-        sidebar.current.style.visibility = 'visible';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
       
     else if(window.innerWidth <= 991){
         sidebar.current.style.left = '-60%';
-        sidebar.current.style.visibility = 'none';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
