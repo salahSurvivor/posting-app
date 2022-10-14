@@ -616,4 +616,8 @@ iframe{
 .postComment{
     width: 418px;
 }
+
+.container-edit h3 {
+    margin: 0 0 12px 26px;
+}
 }
