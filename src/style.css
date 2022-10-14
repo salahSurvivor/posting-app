@@ -572,6 +572,7 @@ label.float-end.editLabel {
 }
 
 .sideBar-container{
+    width: 240px;
     left: -60%;
     visibility: none;
 }   
