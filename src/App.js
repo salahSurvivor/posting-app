@@ -34,7 +34,6 @@ function App() {
   window.onresize = function(){
     if(window.innerWidth >= 991){
         sidebar.current.style.left = '0px';
-        sidebar.current.style.visibility = 'visible';
         container.current.style.left = '50%';
         container.current.style.position = 'absolute';
     }
